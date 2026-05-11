@@ -194,6 +194,9 @@ nav a.active::after {
 
     margin-top: 0;
 
+    /* décale la photo vers la droite */
+    margin-left: 60px;
+
     padding: 10px;
 
     border: 1px solid var(--border);
@@ -302,3 +305,4 @@ a {
 .cours {
     transform: translateY(-50px);
 }
+margin-left: 60px;
