@@ -276,10 +276,6 @@ a {
         grid-template-columns: 1fr;
     }
 
-    .photo-frame {
-        width: 200px;
-    }
-
     .title {
         font-size: 3.4rem;
     }
