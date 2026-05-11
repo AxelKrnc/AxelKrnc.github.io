@@ -187,12 +187,12 @@ nav a.active::after {
 
 .photo-frame {
 
-    width: 100px;
+    width: 240px;
     max-width: 100%;
 
     background: white;
 
-    margin-top: 50px;
+    margin-top: 0;
 
     padding: 10px;
 
