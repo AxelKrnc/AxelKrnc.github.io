@@ -195,7 +195,7 @@ nav a.active::after {
     margin-top: 0;
 
     /* décale la photo vers la droite */
-    margin-left: 100px;
+    margin-left: 300px;
 
     padding: 10px;
 
