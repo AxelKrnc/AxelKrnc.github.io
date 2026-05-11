@@ -194,14 +194,12 @@ nav a.active::after {
 
     margin-top: 0;
 
-    /* décale la photo vers la droite */
-    margin-left: 300px;
-
     padding: 10px;
 
     border: 1px solid var(--border);
 
-    transform: rotate(1deg);
+    /* déplacement horizontal */
+    transform: translateX(70px) rotate(1deg);
 
     box-shadow:
         0 10px 20px rgba(0,0,0,0.08);
@@ -216,7 +214,6 @@ nav a.active::after {
 
     object-fit: cover;
 }
-
 /* =========================
    CONTENT
 ========================= */
