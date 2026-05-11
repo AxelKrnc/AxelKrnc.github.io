@@ -6,11 +6,18 @@ function setLanguage(lang) {
     localStorage.setItem('language', lang);
 
     blocks.forEach(block => {
-        block.classList.toggle('hidden', block.dataset.lang !== lang);
+        if (block.dataset.lang === lang) {
+            block.classList.remove('hidden');
+        } else {
+            block.classList.add('hidden');
+        }
     });
 
     buttons.forEach(button => {
-        button.classList.toggle('active', button.dataset.langButton === lang);
+        button.classList.toggle(
+            'active',
+            button.dataset.langButton === lang
+        );
     });
 }
 
