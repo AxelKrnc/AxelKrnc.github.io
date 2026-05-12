@@ -347,3 +347,6 @@ h2 {
   font-weight: normal;
   color: #444;
 }
+body {
+    overflow-y: hidden;
+}
