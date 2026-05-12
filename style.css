@@ -253,7 +253,12 @@ h2 {
     font-size: 2.3rem;
 }
 
-h2::after {
+.highlight-title {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-title::after {
     content: "";
 
     position: absolute;
