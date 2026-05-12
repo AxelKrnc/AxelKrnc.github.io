@@ -78,6 +78,8 @@ body {
 }
 
 .title {
+    display: inline-block;
+
     margin: 0;
 
     font-family:
@@ -87,6 +89,14 @@ body {
     font-size: 4.8rem;
 
     line-height: 1;
+
+    background: var(--blue-soft);
+
+    padding:
+        6px 14px
+        10px;
+
+    border-radius: 8px;
 }
 
 /* =========================
@@ -178,7 +188,7 @@ nav a.active::after {
     display: grid;
     grid-template-columns: minmax(0,1fr) 300px;
     align-items: start;
-    gap: 48px;
+    gap: 26px;
 }
 
 /* =========================
@@ -310,7 +320,7 @@ a {
 ========================= */
 .encard {
   background-color: #cfe3ff; /* bleu */
-  color: white;              /* couleur du texte */
+  color: black;              /* couleur du texte */
   padding: 4px 8px;          /* espace intérieur */
   border-radius: 6px;        /* coins arrondis */
 }
