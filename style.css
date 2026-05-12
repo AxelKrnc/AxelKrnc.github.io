@@ -290,7 +290,9 @@ a {
     }
 }
 
-
+/* =========================
+   DECALAGES
+========================= */
 .hero > div:first-child {
     transform: translateY(-60px);
 }
@@ -301,4 +303,14 @@ a {
 .hero > div:first-child,
 .cours {
     transform: translateY(-60px);
+}
+
+/* =========================
+   FOND COULEUR
+========================= */
+.encard {
+  background-color: blue-soft; /* bleu */
+  color: white;              /* couleur du texte */
+  padding: 4px 8px;          /* espace intérieur */
+  border-radius: 6px;        /* coins arrondis */
 }
