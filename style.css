@@ -309,7 +309,7 @@ a {
    FOND COULEUR
 ========================= */
 .encard {
-  background-color: blue-soft; /* bleu */
+  background-color: #cfe3ff; /* bleu */
   color: white;              /* couleur du texte */
   padding: 4px 8px;          /* espace intérieur */
   border-radius: 6px;        /* coins arrondis */
