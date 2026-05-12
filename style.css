@@ -350,3 +350,16 @@ h2 {
 body {
     margin: 0;
 }
+
+
+.promo-board {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.promo-board img {
+  width: 320px;
+  max-width: 90%;
+  transform: rotate(-8deg);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
