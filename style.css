@@ -90,7 +90,7 @@ body {
 
     line-height: 1;
 
-    background: var(--blue-soft);
+ /*   background: var(--blue-soft);*/
 
     padding:
         6px 14px
@@ -319,10 +319,17 @@ a {
    FOND COULEUR
 ========================= */
 .encard {
-  background-color: #cfe3ff; /* bleu */
-  color: black;              /* couleur du texte */
-  padding: 4px 8px;          /* espace intérieur */
-  border-radius: 6px;        /* coins arrondis */
+   background: var(--blue-soft);
+
+    padding:
+        18px
+        22px;
+
+    border-radius: 6px;
+
+    width: fit-content;
+
+    max-width: 700px;
 }
 
 /* =========================
