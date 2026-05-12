@@ -200,7 +200,7 @@ nav a.active::after {
     flex-direction: column;
     align-items: center;
 
-    gap: 28px;
+    gap: 90px;
 }
 
 /* PHOTO */
