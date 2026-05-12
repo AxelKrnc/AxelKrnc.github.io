@@ -187,7 +187,7 @@ nav a.active::after {
 
 .photo-frame {
 
-    width: 200px;
+    width: 220px;
     max-width: 100%;
 
     background: white;
@@ -292,13 +292,13 @@ a {
 
 
 .hero > div:first-child {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
 }
 .hero > div:first-child,
 .publications {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
 }
 .hero > div:first-child,
 .cours {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
 }
