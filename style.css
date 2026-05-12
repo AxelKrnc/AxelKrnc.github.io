@@ -314,3 +314,12 @@ a {
   padding: 4px 8px;          /* espace intérieur */
   border-radius: 6px;        /* coins arrondis */
 }
+
+/* =========================
+   CONTACT
+========================= */
+.mail {
+  font-size: 0.6em;   /* plus petit que le titre */
+  font-weight: normal;
+  color: #444;
+}
