@@ -319,7 +319,9 @@ a {
 .cours {
     transform: translateY(-60px);
 }
-
+h2 {
+    margin-bottom: 8px;
+}
 /* =========================
    FOND COULEUR
 ========================= */
