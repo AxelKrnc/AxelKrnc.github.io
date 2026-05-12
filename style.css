@@ -195,47 +195,49 @@ nav a.active::after {
    PHOTO
 ========================= */
 
-.photo-frame {
+.side-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    gap: 28px;
+}
+
+/* PHOTO */
+
+.photo-frame {
     width: 220px;
     max-width: 100%;
 
     background: white;
 
-    margin-top: 0;
-
     padding: 10px;
 
     border: 1px solid var(--border);
 
-    /* déplacement horizontal */
-    transform: translateX(80px) rotate(1deg);
+    transform: rotate(1deg);
 
     box-shadow:
         0 10px 20px rgba(0,0,0,0.08);
 }
 
 .photo-frame img {
-
     width: 100%;
-    height: auto;
+    display: block;
+}
+
+/* TABLEAU */
+
+.promo-board img {
+    width: 260px;
+    max-width: 100%;
 
     display: block;
 
-    object-fit: cover;
-}
+    transform: rotate(-8deg);
 
-
-.promo-board {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.promo-board img {
-  width: 320px;
-  max-width: 90%;
-  transform: rotate(-8deg);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    filter:
+        drop-shadow(0 8px 16px rgba(0,0,0,0.25));
 }
 /* =========================
    CONTENT
