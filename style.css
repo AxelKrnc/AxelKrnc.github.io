@@ -339,6 +339,9 @@ a {
 h2 {
     margin-bottom: 6px;
 }
+h2.contact {
+    margin-top: 0;
+}
 /* =========================
    FOND COULEUR
 ========================= */
