@@ -326,15 +326,15 @@ a {
    DECALAGES
 ========================= */
 .hero > div:first-child {
-    transform: translateY(-60px);
+    transform: translateY(-65px);
 }
 .hero > div:first-child,
 .publications {
-    transform: translateY(-60px);
+    transform: translateY(-65px);
 }
 .hero > div:first-child,
 .cours {
-    transform: translateY(-60px);
+    transform: translateY(-65px);
 }
 h2 {
     margin-bottom: 6px;
